@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="pf.conf" ext="conf" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">= != &lt; &lt;= &gt; &gt;= : &gt;&lt; &lt;&gt; () -&gt; $</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">block&#x000D;&#x000A;match&#x000D;&#x000A;pass&#x000D;&#x000A;rdr&#x000D;&#x000A;nat&#x000D;&#x000A;rdr-anchor&#x000D;&#x000A;nat-anchor&#x000D;&#x000A;no&#x000D;&#x000A;anchor&#x000D;&#x000A;load&#x000D;&#x000A;antispoof&#x000D;&#x000A;match</Keywords>
+            <Keywords name="Keywords2">in&#x000D;&#x000A;out&#x000D;&#x000A;log&#x000D;&#x000A;rdomain&#x000D;&#x000A;quick&#x000D;&#x000A;on&#x000D;&#x000A;to&#x000D;&#x000A;proto&#x000D;&#x000A;from&#x000D;&#x000A;port&#x000D;&#x000A;max-mss&#x000D;&#x000A;min-ttl&#x000D;&#x000A;no-df&#x000D;&#x000A;random-id&#x000D;&#x000A;reassemble tcp&#x000D;&#x000A;return&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords3">any&#x000D;&#x000A;no-route&#x000D;&#x000A;route&#x000D;&#x000A;seld&#x000D;&#x000A;urpf-failed</Keywords>
+            <Keywords name="Keywords4">all&#x000D;&#x000A;allow-opts&#x000D;&#x000A;divert-packet&#x000D;&#x000A;divert-reply&#x000D;&#x000A;divert-to&#x000D;&#x000A;flags&#x000D;&#x000A;group&#x000D;&#x000A;icmp-type&#x000D;&#x000A;icmp6-type&#x000D;&#x000A;label&#x000D;&#x000A;once&#x000D;&#x000A;probability&#x000D;&#x000A;received-on&#x000D;&#x000A;rtable&#x000D;&#x000A;set prio&#x000D;&#x000A;set queue&#x000D;&#x000A;set tos&#x000D;&#x000A;tag&#x000D;&#x000A;tagged&#x000D;&#x000A;user&#x000D;&#x000A;synproxy&#x000D;&#x000A;floating&#x000D;&#x000A;if-bound&#x000D;&#x000A;max&#x000D;&#x000A;no-sync&#x000D;&#x000A;pflow&#x000D;&#x000A;sloppy&#x000D;&#x000A;source-track&#x000D;&#x000A;max-src-nodes&#x000D;&#x000A;max-src-states&#x000D;&#x000A;max-src-conn&#x000D;&#x000A;max-src-conn-rate&#x000D;&#x000A;source-track&#x000D;&#x000A;max&#x000D;&#x000A;&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords5">af-to&#x000D;&#x000A;binat-to&#x000D;&#x000A;nat-to&#x000D;&#x000A;rdr-to&#x000D;&#x000A;bitmask&#x000D;&#x000A;least-states&#x000D;&#x000A;random&#x000D;&#x000A;round-robin&#x000D;&#x000A;source-hash&#x000D;&#x000A;static-port&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords6">dup-to&#x000D;&#x000A;reply-to&#x000D;&#x000A;route-to</Keywords>
+            <Keywords name="Keywords7">set block-policy&#x000D;&#x000A;set debug&#x000D;&#x000A;set fingerprints&#x000D;&#x000A;set hostid&#x000D;&#x000A;set limit&#x000D;&#x000A;set loginterface&#x000D;&#x000A;set optimization&#x000D;&#x000A;set reassemble&#x000D;&#x000A;set ruleset-optimization&#x000D;&#x000A;set skip on&#x000D;&#x000A;set state-defaults&#x000D;&#x000A;set state-policy&#x000D;&#x000A;set timeout&#x000D;&#x000A;timeout-list&#x000D;&#x000A;&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords8">queue&#x000D;&#x000A;const&#x000D;&#x000A;counters&#x000D;&#x000A;persist&#x000D;&#x000A;</Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03&lt; 04 05&gt; 06( 07 08) 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="408080" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF0000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF8040" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF0000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="008000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="008000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="808000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="008000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="FF0000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
